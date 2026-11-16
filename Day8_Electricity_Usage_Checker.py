@@ -1,0 +1,11 @@
+print("-" * 40)
+print("        electricity usage checker")
+print("-" *40)
+name=input("enter the name: ")
+unit=(int(input("enter the unit: ")))
+print("-" * 40)
+print("      Electricity Usage: ")
+print("-" *40)
+if unit >= 100:
+    print("High Electricity Usage")
+print("checking completed" )
