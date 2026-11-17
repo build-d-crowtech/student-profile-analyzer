@@ -1,0 +1,10 @@
+print("=" * 40)
+print("        Number Counting Generator")
+print("=" * 40)
+starting_number = (int(input("enter the starting number: ")))
+ending_number = (int(input("enter the ending number: ")))
+step_value = (int(input("enter the step value:")))
+print("Generated Numbers")
+for i in range(starting_number ,ending_number , step_value):
+    print(i)
+print("counting completed")
